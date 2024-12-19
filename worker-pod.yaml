@@ -10,7 +10,7 @@ spec:
       image: kodekloud/examplevotingapp_worker:v1
       env:
         - name: DATABASE_HOST
-          value: postgres-pod  # Corrected Postgres pod name
+          value: postgres-pod  
         - name: DATABASE_PORT
           value: "5432"
         - name: DATABASE_USER
